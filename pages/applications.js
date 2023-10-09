@@ -1,3 +1,4 @@
+/* Eslint-disable */
 import React from "react";
 import SmallCards from "@/components/cards/SmallCards";
 import applications_emit from "@/data/applications_emit";
