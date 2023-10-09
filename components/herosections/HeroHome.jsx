@@ -26,6 +26,7 @@ export default function HeroHome() {
             width={1824}
             height={1080}
             className="absolute left-0 top-0 w-[57rem] rounded-md max-w-none bg-white/5 ring-1 ring-white/10"
+            alt="International Space Station"
           />
         </div>
       </div>

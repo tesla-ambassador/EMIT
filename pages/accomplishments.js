@@ -2,7 +2,7 @@ import React from "react";
 import { accomplishments_emit } from "@/data/applications_emit";
 import SmallCards from "@/components/cards/SmallCards";
 
-export default function accomplishments() {
+export default function Accomplishments() {
   return (
     <div className="min-h-screen flex flex-col items-center p-4 lg:px-[50px] xl:px-[100px]">
       <div className="text-white mt-12 text-center sm:w-[31.25rem] md:w-[43.75rem] lg:mt-24">
