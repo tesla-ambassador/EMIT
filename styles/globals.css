@@ -17,11 +17,40 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #443c68;
+  background-image: url("/space-bg-4-min.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.glass {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card-glass {
+  background: rgba(68, 60, 104, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+}
+
+.neumorphism {
+  border-radius: 10px;
+  background: #443c68;
+  box-shadow: -6px 6px 7px #342e50, 6px -6px 7px #544a80;
+}
+
+.parent_hover:hover {
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  transition: all 350ms;
+}
+
+.parent_hover:hover .child_hover {
+  opacity: 1;
 }
